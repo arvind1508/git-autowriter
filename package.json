@@ -1,0 +1,25 @@
+{
+  "name": "git-autowriter",
+  "version": "0.1.0",
+  "description": "CLI to generate conventional-style git commit messages (interactive or auto).",
+  "main": "index.js",
+  "bin": { "git-autowriter": "src/cli/index.js" },
+  "type": "module",
+  "keywords": ["git", "commit", "conventional-commits", "cli", "commit-message", "autogenerate"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/git-autowriter"
+  },
+  "author": "",
+  "license": "MIT",
+  "scripts": { "dev": "node src/cli/index.js" },
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "chalk": "^5.0.0",
+    "minimist": "^1.2.8",
+    "simple-git": "^3.18.0"
+  },
+  "devDependencies": {
+    "husky": "^9.0.0"
+  }
+}
